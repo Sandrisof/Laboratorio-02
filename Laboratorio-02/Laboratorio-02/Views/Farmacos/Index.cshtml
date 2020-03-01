@@ -1,0 +1,22 @@
+﻿@model Laboratorio_02.Models.FarmacosModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Farmacos</h2>
+<br />
+@using (Html.BeginForm("CargarArchivo", "Farmacos", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <hr />
+    <h4 class="text-info">Cargar Archivo</h4>
+    <br />
+    <div class="agroup-class">
+        <input type="file" name="file" accept=".csv" />
+    </div>
+    <br />
+    <div class="agroup-class">
+        <input type="submit" value="Aceptar" class="btn btn-info" />
+    </div>
+}
+
