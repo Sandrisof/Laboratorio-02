@@ -10,7 +10,7 @@ namespace LibreriadeClases.Interfaz
     public abstract class EstructuradeDatosNoLineal1<T>
     {
         protected abstract void InsertarRaiz(T valor);
-        protected abstract void Insertar(Nodo<T> raiz, Nodo<T> nuevo);
+        //protected abstract void Insertar(Nodo<T> raiz, Nodo<T> nuevo);
         //protected abstract void Eliminar();
         //protected abstract T Get();
     }

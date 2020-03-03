@@ -46,6 +46,7 @@
     <Compile Include="Estructura\Nodo.cs" />
     <Compile Include="Interfaz\EstructuradeDatosNoLineal1.cs" />
     <Compile Include="Interfaz\IEstructuradeDatosNoLineal.cs" />
+    <Compile Include="Estructura\Medicamentosinfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

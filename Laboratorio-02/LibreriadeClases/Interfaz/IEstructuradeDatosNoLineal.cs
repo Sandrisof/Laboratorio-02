@@ -10,7 +10,7 @@ namespace LibreriadeClases.Interfaz
     interface IEstructuradeDatosNoLineal<T>
     {
         void InsertarRaiz(T valor);
-        void Insertar(Nodo<T> raiz, Nodo<T> nuevo);
+        void Insertar(Nodo raiz, Nodo nuevo);
         void Eliminar();
         T Get();
 
