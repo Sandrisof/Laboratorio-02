@@ -176,5 +176,11 @@ namespace Laboratorio_02.Controllers
                
             }
         }
+    
+        [HttpPost]
+        public ActionResult Buscar()
+        {
+            return View();
+        }
     }
 }

@@ -117,36 +117,6 @@ namespace LibreriadeClases.Estructura
             throw new NotImplementedException();
         }
 
-        //public void Agregar(Nodo raiz, Nodo nuevo)
-        //{
-        //    Insertar(raiz, nuevo);
-        //}
-
-        //protected override void InsertarRaiz(T valor)
-        //{
-        //    Nodo Nuevo = new Nodo();
-        //    Nuevo.Valor = valor;
-        //    {
-        //        if (Raiz == null)
-        //        {
-        //            Raiz = Nuevo;
-        //        }
-        //        else
-        //        {
-        //            Insertar(Raiz, Nuevo);                    
-        //        }
-        //    };
-        //}
-
-        //protected override void Insertar(Nodo raiz, Nodo nuevo) 
-        //{
-        //    if (raiz == null)
-        //    {
-        //        raiz = nuevo;
-        //    }
-
-        //}
-
         private void Preorden(Nodo obtienenodo)
         {
             if (obtienenodo != null)
