@@ -10,10 +10,14 @@ namespace LibreriadeClases.Estructura
     {
         public Medicamentosinfo medsinfo { get; set; }
         public int creaindice { get; set; }
+        public int veralturader { get; set; }
+        public int veralturaizq { get; set; }
+        public int factequilibrio { get; set; }
+        public int alturaAVL { get; set; }
         public Nodo padre { get; set; }
         public Nodo izquierdo { get; set; }
         public Nodo derecho { get; set; }
-       // public T Valor { get; set; }
+        public int Valor { get; set; }
         //constructores
         public Nodo()
         {
@@ -56,6 +60,7 @@ namespace LibreriadeClases.Estructura
         
         public bool buscarderecho()
         {
+
             if (derecho !=null)
             {
                 return true; 

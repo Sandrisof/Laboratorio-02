@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "BuscaFarmaco";
+}
+
+<h2>BuscaFarmaco</h2>
+@model ABB.Farmaco
+@using (Html.BeginForm())
+{
+<p>Búsqueda por nombre: @Html.TextBox("nombre")
+    <input type="submit" value="Buscar fármaco" />
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            Nombre
+        </th>
+        <th>
+            Cantidad
+        </th>
+        <th>
+            Descripción
+        </th>
+        <th>
+            Precio
+        </th>
+        <th></th>
+    </tr>
+    @if (Model != null)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.cantidad)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.precio)
+            </td>
+            
+        </tr>
+    }
+</table>

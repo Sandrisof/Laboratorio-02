@@ -8,5 +8,6 @@ namespace LibreriadeClases
 {
     public class Class1
     {
+
     }
 }

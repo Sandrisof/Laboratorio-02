@@ -178,7 +178,7 @@ namespace Laboratorio_02.Controllers
         }
     
         [HttpPost]
-        public ActionResult Buscar()
+        public ActionResult Buscar(string nomreclte)
         {
             return View();
         }
